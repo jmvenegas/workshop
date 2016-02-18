@@ -1,0 +1,4 @@
+# fishbyte
+FishByte was written during my first semester of my computer science degree. At the time, I was working for the Ghalambor Guppy Lab performing reaction time experiments. One of the graduate students working in the lab asked me if I knew how I could help her improve her workflow. She was manually measuring the distance between individual fish in a cluster formation and averaging the distance. From this request, FishByte was written and used to calculate and average distance between clusters of fish in a picture. 
+
+*Note: The code is badly written and I admittedly barely knew what I was doing at the time, but it was a lot of fun to make, and getting to see the student's reaction when I presented my project to her was more than worth it. FishByte was fun.

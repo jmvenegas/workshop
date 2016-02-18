@@ -1,0 +1,6 @@
+# platterpus
+Platterpus is a play on words because of the technologies involved in this project. This project combines the Jenkins automation platform and groovy script. Jenkins' icon is a butler. Butlers often carry platters. A platypus is kind of a 'hybrid' mammal. So, Platterpus is a hybrid of Jenkins and Groovy script!... No one said it was a good name. 
+
+Status: Active, but not a P0. Needs lots of refactoring/implementation. Good proof of concept.
+
+*Note: There is a little bit of customization required for a user to set this up in their environment, but it does provide some neat functionality for automating actions, like creating jobs, on Jenkins. The 'meat' of the application is inside the platterPus.py file. Was mostly written as a demonstration of how to use groovy and python to automate jenkins job creation,deletion,etc.

@@ -1,0 +1,20 @@
+System: Core corrupted. Repair pressure systems to stabilize core.
+GlaDos: Do me a favor and fix that will you.
+.
+..
+.....................
+
+-----	-----	-----
+:   :	:   :	:   :
+:   :	:XXX:	:   :
+:   :	:XXX:	:   :
+:   :	:XXX:	:XXX:
+:XXX:	:XXX:	:XXX:
+-----	-----	-----
+  0	  1	  2
+
+Container 0: 20%
+Container 1: 70%
+Container 2: 50%
+
+System: Bring all containers to 60% to stabilize pressure system.

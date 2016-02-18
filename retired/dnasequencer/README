@@ -1,0 +1,4 @@
+# dna sequencer
+Java application that randomly generates a string of nucleobases and then searches that string for the specified 'sequence' or group.
+
+*Note: This was also written during the first semester of my computer science degree. To this day, I am still very interested in biology and hope to write more (advanced) software for the biosciences in the future.

@@ -1,0 +1,4 @@
+# online status
+Graphical program written in java designed to display an indicator on the screen to show whether the user had an internet conneciton or not. Inspiration came from watching a movie where a 'status' was displayed on the screen between two people having a video chat. 
+
+*Note: At the time, I figured trying to ping google was probably a good(enough) way to test if the internet was working. I had a professor that use to say "If Google is down, we probably have bigger problems than the internet being unavailable." 
