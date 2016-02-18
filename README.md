@@ -1,2 +1,6 @@
 # workshop
-A place to tinker
+A Place to Tinker
+
+Ideas:
+	- Leap Motion : In Progress
+
