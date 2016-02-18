@@ -1,6 +1,8 @@
 # workshop
 A Place to Tinker
 
-Ideas:
-	- Leap Motion : In Progress
+Status:
 
+Leap Motion : Active
+Arduino		: Active
+PlatterPus	: Inactive
