@@ -1,0 +1,6 @@
+# network scanner
+Very basic network scanner
+
+Scan local network and assess which IP addresses are in use/online.
+
+*Note: Originally thought I would extend this,make it more sophisticated, but didn't have a need to fill at the time. May revist in the future is K.B. can convince me.
