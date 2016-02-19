@@ -1,0 +1,4 @@
+# Streamer
+A project to stream video from a servers webcam(s) to its website.
+
+The idea is to use my dedicated server with a collection of usb webcams to stream their video to its website similar to a security system.This way I can access their feed from anywhere that I can browse from.
