@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="rootPane" prefHeight="400.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="application.controller.HostController">
+   <children>
+      <RadioButton fx:id="statusIndicator" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" style="-fx-color: #ff0000;" />
+      <Pane fx:id="authPane" prefHeight="400.0" prefWidth="500.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextField fx:id="portText" layoutX="137.0" layoutY="25.0" promptText="Port" />
+            <TextField fx:id="usernameText" layoutX="137.0" layoutY="83.0" promptText="Username" />
+            <Button fx:id="authConnectButton" layoutX="185.0" layoutY="148.0" mnemonicParsing="false" text="Begin Hosting" />
+         </children>
+      </Pane>
+      <Pane fx:id="interactivePane" prefHeight="400.0" prefWidth="500.0" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <ListView fx:id="participantList" layoutX="14.0" layoutY="46.0" prefHeight="340.0" prefWidth="170.0" />
+            <TextField fx:id="topicText" layoutX="214.0" layoutY="46.0" promptText="Topic" />
+            <Button fx:id="setTopicButton" layoutX="409.0" layoutY="46.0" mnemonicParsing="false" text="Set Topic" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

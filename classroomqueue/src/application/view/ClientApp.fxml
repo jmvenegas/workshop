@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="rootPane" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.ClientController">
+   <children>
+      <Pane fx:id="authPane" prefHeight="200.0" prefWidth="200.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <TextField fx:id="hostAddressText" layoutX="56.0" layoutY="37.0" promptText="Host Address:Port" />
+            <TextField fx:id="usernameText" layoutX="56.0" layoutY="81.0" promptText="Username" />
+            <Button fx:id="authConnectButton" layoutX="165.0" layoutY="137.0" mnemonicParsing="false" text="Connect" />
+         </children>
+      </Pane>
+      <Pane fx:id="interactivePane" prefHeight="200.0" prefWidth="200.0" visible="false" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Button fx:id="joinQueueButton" layoutX="68.0" layoutY="238.0" mnemonicParsing="false" text="Raise Hand" />
+            <Button fx:id="exitQueueButton" layoutX="250.0" layoutY="238.0" mnemonicParsing="false" text="I'm Done" />
+            <RadioButton fx:id="statusIndicator" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" style="-fx-color: #ff0000;" />
+            <Label layoutX="91.0" layoutY="31.0" text="Topic: " />
+            <Label layoutX="91.0" layoutY="98.0" text="Speaker: " />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
