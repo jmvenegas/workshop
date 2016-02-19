@@ -1,0 +1,9 @@
+# Classroom Queue
+
+Classroom Queue is a simple, graphical application for negotiating and moderating a discussion between individuals having an in-person meeting.
+
+Why:
+	I was inspired to write this application because I thought it would be fun, but also because it acts as a form of moderation for individuals who find themselves to be too outspoken in meetings.
+
+How it works:
+	A manager or teacher can host the server application and allow participants to join. Once joined, the host can set the topic and has a visual list of who is joined and who currently has the floor. The meeting participants can click a button to 'raise their hand' and it will add them to the queue of speakers. When it is their turn to speak, they will be notified by the application on their end, and will have the floor until they click 'done.' Once they finish, they will have another oopportunity to speak and be reentered into the queue when they elect. This ensures, even in the worst case (in regards to wait time), that the outspoken individuals will give each member of the meeting an opportunity to speak on the topic before they can participate again.
