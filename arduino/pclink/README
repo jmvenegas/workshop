@@ -1,0 +1,8 @@
+# PCLink
+
+PCLink can be used to simplify the data exchange between an arduino and a pc(mac inclusive).
+
+My vision is a collection of utilities that further abstracts the communication mechanisms between the computer and arduino making it very simple to read and write to the arduino microcontroller.
+
+*Here for tutorial?
+    Copy/Download the BasicTutorialHC.java source file. All comments are inline.
