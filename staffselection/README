@@ -1,0 +1,6 @@
+# Staff Selection Algorithm
+
+My implementation of the staff selection algorithm used in MGSV.
+
+Inspiration:
+	Wanted to make a staffing game based around the mechanics of having staff members with different specialties. These files serve as the implementation for the staff selection algorithm my game engine would likely use.
