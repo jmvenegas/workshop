@@ -1,0 +1,12 @@
+# Readme for Keeper
+Brief:
+	Keeper is an interactive CLI program used to record events for 'tracker types' or skills. It was also designed to eventually perform analysis of the data that was collected over time. 
+
+Dependencies:
+	- Keeper requires the Jackson JSON libraries:
+		- Jackson Core 2.8.1
+		- Jackson Annotations 2.8.5
+		- Jackson Databind 2.8.5
+
+Notes:
+	- I've since switched over to just using Excel, so I probably won't be improving Keeper anytime soon. 
