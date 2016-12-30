@@ -4,4 +4,6 @@ Arduino project directory
 Status: Active
 
 Projects:
-	-Arduino daemon
+	-Arduino PCLink 			[Done]
+	-Arduino Gamepad Simple 		[Done]
+	-Arduino Gamepad GUI			[In Progress]
