@@ -1,0 +1,14 @@
+# Readme for ArduinoGamepadSimple Project
+#	Most of this information can be inferred from the code
+
+# Notes:
+	A. Buttons are wired between digital pin & down. We use the pullup resistor to tell when button is pushed. 
+	B. Code assumes the values of potentiometer reads are between 0-1024
+	C. All the java code is containted to a single file. Compile and run.
+
+# Configuration
+	Arduino Uno R3:
+		Joystick XAxis -  Analog Pin  0
+		Joystick YAxis -  Analog Pin  1
+		Trigger(Button) - Digital Pin 3
+		Thumb(Button) -   Digital Pin 4
